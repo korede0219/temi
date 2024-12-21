@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trauma Surgeons</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the World of Trauma Surgery</h1>
+        <p>Where precision meets compassion.</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Our Services</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a team of dedicated trauma surgeons committed to saving lives and making a difference.</p>
+    </section>
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Emergency Surgery</li>
+            <li>Trauma Care</li>
+            <li>Reconstructive Surgery</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    
+    <header>
+        <h1>Meet Our Trauma Surgeons</h1>
+    </header>
+    <main>
+        <section id="surgeons">
+            <div class="surgeon" id="surgeon1">
+                <img style="height: 300px;width: 200px;" src="temi.jpg" alt="" onerror="handleImageError(this)">
+                <h2>Dr. Temi|Koya</h2>
+                <p>Specialization: Trauma Surgery</p>
+                <p>Experience: 10 years</p>
+            </div>
+            <div class="surgeon" id="surgeon2">
+                <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISERUREhIVEBUXFxUXFRIWFRUXFxcXFRYXFxUVFxUZHSggGBomGxYVITEhJSkrLi4uFx81ODMtNygtLisBCgoKDg0OGxAQGS0lICYtMS0tLy0tLS0tLS8vKy8vLS0tLy0tLS8tLzUtLS0vLS0tLS0tLi0tLS0tLS0tLy0rNf/AABEIANgA6QMBIgACEQEDEQH/xAAcAAEAAgIDAQAAAAAAAAAAAAAABQYDBAECBwj/xAA/EAACAQIDBAgCCAQFBQAAAAAAAQIDEQQSIQUxQVEGEyIyYXGBkaGxB0JSYnLB0fAUIySSY4KisuEVM3PC0v/EABoBAQADAQEBAAAAAAAAAAAAAAADBAUBAgb/xAAtEQACAgEEAQEGBgMAAAAAAAAAAQIRAwQSITFBUQUTIiNhsTJxgdHh8EKhwf/aAAwDAQACEQMRAD8A9wRyAAAAAAAAAAAAAAAR+1Nt4fDq9arGnrbV6+yMuB2lRrRz0qsKkecWmctHaZtg4jJPc7nJ04AAAAAAAAAAAAAAAAAAAAADixyAAAAAAAAAAAAGAdZysrs8+6R9NKuaVOglFa3ce3U/+afrdkv032xCEHSc8qfftLJdcIOf1U+NtbacTyLbG1qk5KEIdXT5RWj5O0d/qQTm7pE0IcWzBiK3WVHGMXVm9WszaXFtyk9/iy37H2DtJpSg6NNaWgqiS83lTu/MpLwLVssmpPVwfF82TWA6XYqm1GEcjWiss/unoROian4L/hobWoLPKnSrW4QklL0vZMnejvSTr26dWlPD1VrkmklJfdabTfgmUlfSPiYRXWUIVFxaUov1T3G9h+l+CxSTqReGnfSb7qfDtx3PxOxnt66PDxt9npCZyaGy8U5RUZO8kk78JLhJNaM3y0mmrRXaoAA6cAAAAAAAAAAAAAAAAAAAAAAAAAAABxN2TZya20qzhRqTSzNQk1Hm0nZHH0EeS7aWeU61RKcpSclnbywXBpc7FSr7XSeSm3Uk33Vor+LWr+RudMcHUjLVu2lm5vtPi8q0S5I7dDNnQ77V3+9TPvizRjC3RJ9Hej059urpJ625eBcMNsWnGzyp6mXZkUTEUiO2+yd1HhGhj9kwqxtJFH250EdPNWw0nm3yg33vyZ6bExYg99dEd26ZRvoz6RSzfws9MrtGL3wfGC+74cD1lHkG19nqjjVXprK1lnK27LGSUl8Uevotad2mU9RGmcgAsFcAAAAAAAAAAAAAAAAAAAAAAAAAAAGLFRvCS5xa+BlNTa85Rw9aUdJKnUcX4qLa+JyXR1cs+f8Ap1i3PEOnG7s7Xvpd79Cb6J0MlNN87L9Ss7fwUliISd2p5ZWS0v8AWb8y5wglCKy5krXS/PwMyTW1I1YRakyx4PHUVvqwVt/aRM4evCSvGSkuadzy+r0iq51Cng6dNOeTNOnbfpd2jdR8bFpop0JO8YxaaU1Du67nyt4nXFpWdvc6LhKpFK7aS8SPq7Xw92lUUmuCTfyMeNtOlF2zKzbWuvhoVGlj9oRqVIU1TWV9hKl2ZaJpKa3a6NtcArZ4aosuIrUlOnWm+xJypu6+0k7NPyReKU00mtzWh5/tDCzr4eCxKUJdZTlJRd7O+7NxVy8bKpuNGCerUUT6aXNFfUx4s2wAXCmAAAAAAAAAAAAAAAAAAAAAAAAAAADHiIXhJb7pr3RkDAPDMXsqcpVHLvRcU4vekm768tNPIldm1e1a11oWPpvs5Uf6lStCUlGULa3knqua0ehWXHJUVt1k7+HAyZwcHTNvHkjkVot0MHGSWi4aNJr4kftvRKL0S9F7GWltVQpri/qrm/0IbETqSk5aSlL7SbS8EuCFnVHnksuA/wCzB7uHuSNKhe1iH2biajoqEoZWrXfDR8Ditj5YeWZ3dOTSa4xb0v8AhPVpEcot3RIY6jmeR7na3ndWLNRp5YqPJJFf2TVz17NXtFv9CxotaZcORS1TdqJyAC0VAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAUr6TajVKhFcarb9INf+xTdnV+upQnxjelLwlDd7xcX7l56fYXrOp+71rXnlT+Sl7HmexajpYjE0mrp5JJc7Nq/mroz8/M2jR0zqKotksL1lBSu4taZo74vye8w9HsBFrLVxNbOt8tMu562S0V7HTA47K2t6e9P52JDD4JSeeDt5aNe3Ahg6LbJ5bPoQWtapXt9RTXK+ttxCbK2LCCqzm5VJVZN3k21CLekIJt2SVteJKUcJK2s7rkbNLCuclTWnFsllLdxFEP4bbdm10fo3lKdrLcidMeHpKEVGKskZC7ihsjRm5cm+TYABIRgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEbtvD5oRkldwmpW5ppxkv7ZM8s2lgVHEurF6ODXq2vllPW9p11Cm36Lze48v23QlGvKL3JprxzK7b8W7+xm6vJGORR8tF/RxbNadPMlwfM2tm42pSeqbXh+hs0MPdIkaeCVkVU2aDryZcPtaUmlGFvOyRN7BbdR31stX4tkH1KROdF499/hXzZYwNuasq6hJY3RPgA1DKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0qTSTbdktWzirVUVduxHV8Q5+EeXPzOM45JdkVi8d1tVRd1GSko8k1qrvm7P2IvpGoN0pNpTalGUL6tRt2kuNm/wDUiW2jgllbp3Ul2oxS3tanWlhY1YvMk3UjmTerjNJKVnw4GDr8aw5Vlk++P1/b9y5pNRfFdfb+/YjMBR7JtrTyMGGrZezJSi1o04vhyNhVIye89R6NJ9mvXnc39kY5UpST3NR4brc/c0MNQeZp8DHtSFRKTo5c8WnaXdkrawb3xut0luZ2p18Lp+pHlScaqy7UcTGSTTM1yh7Fx0qkXOnGdOUX/Mw9SOWcH5d2pHlOO8sWB2ynpLR/C/LXc/BkkfaMsLUNSq9GumZrw3zDn6eSbBhjio87fvmZUzWhOM1ui7RB9DkAHoAAAAAAAAAAAAAAAAAAAAAHBH7S2tCjp3pfZX5mzjsQqcHN8Ny5t6Je5UKd51bvXfKX79QR5J10SjxmeXau29EuXkbFKom3HRuO/mvNEdXpWcWvFqS89x029KSpLF01eVK05xW9xj3vPS+gSKzm+ybiuH79CIwcnCVSnLvU5KafOnO9pfNehK4atGpCNSDvGSUovwepH7UoyVanXjrGzpVV92WsJ+ktH+IzfauF5dNKu1yv7+Ra00lGaN2UE5NPVPtI0MThLPVLXc0dsVXcFSqcFLJLye5+6RJ6Nbrp70edJt1OnjLzROs0sGRrwQMuxJPetzOJ9+61TivdaG3j8I4q67UfjH9UaHWf8Ec4uDpmrjlHJHdFmh0j2y8JS/iYxz9W4uUPtU20qkVydtV4pErWpRxNOGKwtRNyipQb7lWDWkZrhJc96aI3H4RVacqctVJNP1Kj9GO3pYTES2XXl/LlKX8PN/Uqb8jfCMlu5S04kuJQyxeLIrTKurxyjWSHaPRdlY3MmpRcJLv0nwvulF8US1KTjLR6ciJxlF9Y492W+EuT4+ae5o3auJilTcmoubypc5WbtfnoyDS4nos3u7uEuvo0Uck/ex3LtE5CV1dHY0sDV4c9V+Zum0eIytWAAD0AAAAAAAAAAAAAAAADhgED0krXlGnwScn57l+Zo7AhmnU/Al7t/oZNo1M9Wo/s9lem/wCJj6OP+bNfcX+5nEVZu5GeLaSVrrW64q0nqbuGglqtVLejXx0XCSmt2t/V3Nug00mtzPRGuyK6Nw6l1cH9WnK9L/x1LyivR5l6IlcQtGnxTX6Ebtl9XXo19yd6UvKXaj/qXxN7aUv5eZbuJySvs7F1waVBKrh5J+fqt/xTNjBzcUkyL6NVczrUm+DafhK+pKbLblTSmtVo/QyfZkPdb8Po+Py8f6ot6h7qn6o3/kQm1NltPrKSuuMFw8Y+HgTFFW0ZkNLJijkjTPGDPLDLdEqVNnm30gbNtV6yN4t2d1vUk7prxvY9rxOApzd2rS+0vz5lR6XdHpyhe2eP2ktV+JcvEzZ4cmL4u0bWHVYs/wAL4b8M2uie1v8AqOBjPMliafYqc1NKybX2ZqzNfanSPDUMNkxc5UptyypLtqdO2a3ju/uKl0Hw06O06ShpmzQnylDK3Z87NJo9TxmAjN58qc04u7Sese7JX3StpfkWko6iKb8MzNRjenyV6nbCVpXi2mnmV01Z66PThwfqTxT8HmhVjGCWRynKbk5NtNdjLfc4tRi47kkW2nO6TLULqmRRVNncAHo9gAAAAAAAAAAAAAAA4ZydKs7Jvkm/YAq+HjdTfOUvmxsGNq8/wL/cd9kK8NfP31Mux6dq1V/diviwVH2SOJpZk15GhgKjjLq5ehKNGhtCle0t0lxOnlryYukeEdXDTjHvJZo/ih2o/FGlgNqRq4emndOtB5HwzJawfjv9idozuk/c8/6RuWEhUUd2GrU8VSXOhWlapFfhnn9GgcfDtG/0Or/1E4vvJOL52Tui1YaNpTXC9/fUpW06kntBVKTShiI0406l8qzaxmlzatHTzJnA7VhQj/U1km5U4uTTTU6rtGLV3bX4FOOncc7yX3/BYv5VehZLHdo6wXM7ouERwonDZ2kdGwCFo9HaUMX/ABUOy8ko9XwUpNdtctE1bxJg5sdWzzGKjwkep5JTdydmjjqVpKced3bnazX+ZfFIlsDO6t6+5qyimmnuf7uvE67LqO6i9Hqn6Pf8/c6e4MlgACYAAAAAAAAAAAAAAAGrtOplo1JcoS+RtER0qqSjhpuO/S/lcHHwiLwNTLTu2o7tW0lbzYp9IsFTm82LoRzW31FvXAo9WDz5pXldWd9V7cCr7fwSV0lom7eT4Ap7j3rD4iFRZqc41I/ahJSXujmpC582bJr1sPVVbDTlQnxcdFLwnHdNeZ6TsbpntCVs8cPUXPLKDfs2RTzRg6kW8Wlnljugei0I5W1wKd9JDWWEnuWanN/4dZJO/lJQfoyawm2qktZUYL8M3+aI7pZkr0ZRmnC6trqtfFCOfG/8jxk0mWK5j/37GvgKOHrYKCqXrPCTTUEu11ke1T6tpq7t480U76R6jtSqSoVKFpPNnqRc5JrvSjBvu8JOWhL7DwtWvhZwilJu9OpuvGrT7L9Gu0vxkrgdjdZJKu3NR3RlquXy0PaVnn3yikqssvRzGdZRhO91KMXFve00t5LxkRuGoRppRglFWSjFaJeXJG3Sq33blufPmyQhTM7kdXb1OuY0cZK1RMBujdZ1cjoqh0nI4DJGRhk8tRSXnbxXeXrHXzgds+hBdIdsU6MqKlUVNud43v2pRTcY2Xx8DkuEe8f4kXdO+pyRewdoxrU7x036PhZ2t42fHyJQ4nZaAAOgAAAAAAAAAAAAGOvSU4uMldNNNeZkABT9p9G3G7h24/FfqVPa+yLxelmj1w1cXgadRNSinpvaBDLCn0eCy2da/Mk9j1NTU2xiqtOrJZIXjJxacWu67cGZsFNXUlulaS9eHzKOrjwmaPsuVbofqXjZ87o3pwTVt5C7NrXtr6fmTdPUoGnLhlf2dXWB2hbu0cYkmuEcRTVl/dT084F1r0l3kU3phsuVfDThB2qRtUpNcKkO1H3tb1N3of0lWJpRT3ygpLwdu1Frg0zT0uS4U/Bi6/DU9y8k1WrZVfi9I/mzPTqaIgMbjlKppqo6R/N+5s0Zya8S1Zm0TcayW96mrjHea80dcPhktXqzrOV5nTjNiUjCqjbsuJ3qM5wtPiAd5qyKBt7ARxlRRzuFSL/l1E+5e8XfnFp7vAtPSfaLpUpONnLSML7s03ZN+C1foV2EI4aiptudSbtGLtmqTf78kipqcjXCNT2fp1NucujJseNbBzcIydTqoZYyzK0rtd5P01V+6uTvbeh2zcVSzyxGIddTUHGMt8Xa87rcu07KzeiTK9s/AKnF4itPt72+EeUYr897LZ0fxspRtPS7vFPvWt9Y8YMtumWNRgSW6JNA4RyXSkAAAAAAAAAAAAAAAAAAeedOOj8XW6xadYrtfeVk366epVsdguqjCzvvX5oAgzq4M96V7dQqN/ZdYs+Eq3QBk+Tel0Za0dLld2Xs/wDh6mIlDRVHeCX1XPv29bv1OAWdK/mpGfrl8hv0o3sJg5N6L1ZP4XDZVzANRGEZ5SNSHffoAdOMy1NZKPq/Iz1qqhBye5HIAopuMpvE4iMG+zDtz5Zpbl6L5nTZ2EjisRKvr1VNOFNt6ZU7zn/ma38ormwDMm28js+hwLZhVen3JiglUaqNPqo6009z/wASS4+C4I3auJyrrN0k4umr208fNX0AI7rlErim6ZaMJXVSCnHdJX/4MwBqQdxTMiaqTQAB6PIAAAAAB//Z" alt="Dr. Jane Smith" onerror="handleImageError(this)">
+                <h2>Dr. Jane Smith</h2>
+                <p>Specialization: Pediatric Trauma Surgery</p>
+                <p>Experience: 8 years</p>
+            </div>
+            <!-- Add more surgeons as needed -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Trauma Surgeons Portfolio. All rights reserved.</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
